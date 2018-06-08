@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lovetoys'
-version = '0.3.0-1'
+version = '0.3.1-1'
 -- LuaDist source
 source = {
-  tag = "0.3.0-1",
+  tag = "0.3.1-1",
   url = "git://github.com/LuaDist-testing/lovetoys.git"
 }
 -- Original source
