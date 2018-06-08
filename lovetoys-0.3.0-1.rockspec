@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lovetoys'
-version = '0.2.0-1'
+version = '0.3.0-1'
 -- LuaDist source
 source = {
-  tag = "0.2.0-1",
+  tag = "0.3.0-1",
   url = "git://github.com/LuaDist-testing/lovetoys.git"
 }
 -- Original source
@@ -26,12 +26,13 @@ dependencies = {
 build = {
   type = 'builtin',
   modules = {
+    ['lovetoys.src.namespace']                           = 'src/namespace.lua',
     ['lovetoys.lovetoys']                                = 'lovetoys.lua',
     ['lovetoys.src.Component']                           = 'src/Component.lua',
     ['lovetoys.src.Engine']                              = 'src/Engine.lua',
     ['lovetoys.src.Entity']                              = 'src/Entity.lua',
     ['lovetoys.src.EventManager']                        = 'src/EventManager.lua',
-    ['lovetoys.src.middleclass']                         = 'src/middleclass.lua',
+    ['lovetoys.lib.middleclass']                         = 'lib/middleclass.lua',
     ['lovetoys.src.System']                              = 'src/System.lua',
     ['lovetoys.src.util']                                = 'src/util.lua',
     ['lovetoys.src.events.ComponentAdded']               = 'src/events/ComponentAdded.lua',
